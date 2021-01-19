@@ -5,7 +5,7 @@ social rss api service.
 
 ## API DOC
 
-- RSS List
+- social rss list
 
 ```go
 curl -X GET http://localhost:8080/hansu
