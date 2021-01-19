@@ -30,10 +30,11 @@ URL: `/NickName`
 
 Method: `GET`
 
-Param:
+URL Param:
 
 ```json
 curl —X GET http://localhost:8080/ding
+
 ```
 
 Response:
