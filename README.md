@@ -34,7 +34,6 @@ Param:
 
 ```json
 curl —X GET http://localhost:8080/ding
-
 ```
 
 Response:
@@ -70,4 +69,6 @@ Cause: `success | user not exist   | user look in no data`
         "avatar_url": "https://iconfont.alicdn.com/t/1570850261949.png@100h_100w.jpg"
     }
 }
-```
+
+
+
