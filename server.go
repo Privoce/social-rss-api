@@ -4,6 +4,13 @@
 
 package main
 
-func main() {
+import (
+	"api.privoce.com/rss/configs"
+	"api.privoce.com/rss/routers"
+	"log"
+)
 
+func main() {
+	log.Println("Server running... Port:", configs.Port)
+	routers.Start()
 }
