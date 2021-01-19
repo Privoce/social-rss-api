@@ -34,10 +34,6 @@ Param:
 
 ```json
 curl —X GET http://localhost:8080/ding
-<<<<<<< HEAD
-=======
-
->>>>>>> 8774c8a1645190489c4615dd6581ad72412467d9
 ```
 
 Response:
