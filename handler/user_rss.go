@@ -19,15 +19,15 @@ func RSSList(c *gin.Context) {
 	userInfo := us.GetUserByName(name)
 	if userInfo == nil {
 		c.JSON(http.StatusOK, gin.H{
-			"code": 500,
-			"msg":  "user info not find.",
+			"code": 400,
+			"msg":  "user not exist.",
 		})
 		return
 	}
 	ins := ss.GetUserLookIns(userInfo.NickName)
 	if len(ins) == 0 || ins == nil {
 		c.JSON(http.StatusOK, gin.H{
-			"code":      400,
+			"code":      401,
 			"msg":       "user look in no data.",
 			"user_info": userInfo,
 		})

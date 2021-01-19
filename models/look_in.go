@@ -4,7 +4,7 @@ package models
 type LookIn struct {
 	NickName string `json:"nick_name"`
 	Time     string `json:"time"`
-	ItemURL  string `json:"URL"`
+	ItemURL  string `json:"url"`
 }
 
 func NewLookIn(name, time, url string) *LookIn {
