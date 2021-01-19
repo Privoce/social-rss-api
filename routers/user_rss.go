@@ -8,5 +8,4 @@ import (
 // mappingApi mapping social rss api
 func mappingApi(r *gin.Engine) {
 	r.GET("/:name", handler.RSSList)
-	r.POST("/:name")
 }
