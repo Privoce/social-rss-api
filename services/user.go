@@ -16,3 +16,7 @@ func (s UserService) GetUserByName(name string) *models.UserInfo {
 	}
 	return repositorys.FindOneUserByName(name)
 }
+
+func (s UserService) CreateUser(u *models.UserInfo) {
+	repositorys.AddOneUserInfo(u)
+}

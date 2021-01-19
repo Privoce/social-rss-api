@@ -21,3 +21,7 @@ func FindOneUserByName(name string) *models.UserInfo {
 	}
 	return nil
 }
+
+func AddOneUserInfo(u *models.UserInfo) {
+	userDataBase = append(userDataBase, u)
+}
