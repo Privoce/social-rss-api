@@ -24,7 +24,7 @@ social rss api service.
 
 ### RSS LIST
 
-#### `domain/signin`
+#### `domain/nickname`
 
 URL: `/NickName`
 
